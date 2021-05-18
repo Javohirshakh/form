@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Login form</title>
+</head>
+<body>
+  <div class="container">
+    <div class="right">
+      <img class="user" src="images/user.png" width="120" height="120" alt="user's picture">
+      <h2>Let’s get you set up</h2>
+      <p>Itshould only take a couple of <br> minutes <br>
+        to pair with your watch</p>
+  
+      <div class="arrow">
+        <img src="images/arrowleft.svg" alt="arrow to right">
+      </div>
+    </div>
+    <form action="https://echo.htmlacademy.ru" method="POST">
+      <div>
+        <div>
+          <label for="name">Name</label>
+          <input id="name" type="text" placeholder="Kendall Jenner" autocomplete="off">
+        </div> 
+        <div>
+          <label>Gender</label>
+          <div class="checker">
+            <label for="male">
+              <input id="male" name="six" type="radio">
+              <div></div>
+              male
+            </label>
+            <label for="female">
+              <input id="female" name="six" type="radio">
+              <div></div>
+              female
+            </label>
+          </div>
+        </div>
+        <div>
+          <label for="date">Date of birth</label>
+          <input id="date" type="date" placeholder="Kendall Jenner" autocomplete="off">
+          <div class="absolute">
+            <img src="images/calendar.svg" alt="" width="12" height="12">
+          </div>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" placeholder="kendall@email.com" autocomplete="off" required>
+        </div> 
+        <div>
+          <label for="phone">Mobile</label>
+          <input id="phone" type="tel" name="phone" placeholder="+91 98765 43210" autocomplete="off" required>
+        </div> 
+        <div>
+          <label for="phone">Customer ID</label>
+          <input id="phone" type="tel" name="email" placeholder="576802-ERD0348 45 " autocomplete="off" required>
+        </div> 
+        <div>
+          <label>Membership</label>
+          <div class="checker membership">
+            <label for="classic">
+              <input id="classic" name="membership" value="classic" type="radio">
+              <div></div>
+              classic
+            </label>
+            <label for="silver">
+              <input id="silver" name="membership" value="silver" type="radio">
+              <div></div>
+              Silver
+            </label>
+            <label for="gold">
+              <input id="gold" name="membership" value="gold" type="radio">
+              <div></div>
+              Gold
+            </label>
+          </div>
+        </div>
+        <div class="buttons">
+          <button type="reset">Cancel</button>
+          <button type="submit">Save</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
